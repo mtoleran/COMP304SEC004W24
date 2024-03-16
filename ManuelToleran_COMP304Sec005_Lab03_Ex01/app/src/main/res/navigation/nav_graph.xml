@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fullScheduleFragment">
+
+    <fragment
+        android:id="@+id/fullScheduleFragment"
+        android:name="com.example.manueltoleran_comp304sec005_lab03_ex01.FullScheduleFragment"
+        android:label="Airline Schedule"
+        tools:layout="@layout/fragment_full_schedule" >
+        <action
+            android:id="@+id/action_fullScheduleFragment_to_airlineScheduleFragment"
+            app:destination="@id/airlineScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/airlineScheduleFragment"
+        android:name="com.example.manueltoleran_comp304sec005_lab03_ex01.AirlineScheduleFragment"
+        android:label="{airlineName}"
+        tools:layout="@layout/fragment_airline_schedule" >
+        <argument
+            android:name="airlineName"
+            app:argType="string" />
+
+    </fragment>
+</navigation>

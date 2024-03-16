@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/airline_item_horizontal_padding"
+    android:paddingRight="@dimen/airline_item_horizontal_padding"
+    android:paddingTop="@dimen/airline_item_vertical_padding"
+    android:paddingBottom="@dimen/airline_item_vertical_padding">
+
+    <TextView
+        android:id="@+id/airline_name_text_view"
+        style="@style/AirlineItemTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/arrival_time_text_view"
+        style="@style/AirlineItemTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/terminal_text_view"
+        style="@style/AirlineItemTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>
