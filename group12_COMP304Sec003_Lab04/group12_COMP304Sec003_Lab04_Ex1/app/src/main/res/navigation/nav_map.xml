@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_map"
+    app:startDestination="@id/landmarkTypeFragment">
+
+    <fragment
+        android:id="@+id/landmarkTypeFragment"
+        android:name="com.example.group12_comp304sec003_lab04_ex1.LandmarkTypeFragment"
+        android:label="fragment_landmark"
+        tools:layout="@layout/fragment_landmark" >
+        <action
+            android:id="@+id/action_landmarkTypeFragment_to_landmarkFragment"
+            app:destination="@id/landmarkFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/landmarkFragment"
+        android:name="com.example.group12_comp304sec003_lab04_ex1.LandmarkFragment"
+        android:label="fragment_landmark"
+        tools:layout="@layout/fragment_landmark" >
+        <argument
+            android:name="selectedLandmarkType"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_landmarkFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.group12_comp304sec003_lab04_ex1.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <argument
+            android:name="locationLatLng"
+            app:argType="com.google.android.gms.maps.model.LatLng" />
+    </fragment>
+
+</navigation>
