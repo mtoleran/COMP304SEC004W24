@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">group12_COMP304Sec003_Lab04_Ex2</string>
+    <string name="show_less">Show less</string>
+    <string name="show_more">Show more</string>
+    <!-- OnBoardingScreen Text -->
+    <string name="selectProgram">Select a Program</string>
+    <string name="AISoftEng">Artificial Intelligence\nSoftware Engineering Technology</string>
+    <string name="softEngTechnician">Software Engineering Technician</string>
+    <string name="softEngTechnology">Software Engineering Technology</string>
+    <string name="backToPrograms">Back To Programs</string>
+
+    <!-- AISoftwareEngineeringDetails Text -->
+    <string name="comp214">COMP-214</string>
+    <string name="comp216">COMP-216</string>
+    <string name="comp247">COMP-247</string>
+    <string name="comp254">COMP-254</string>
+    <string name="comp311">COMP-311</string>
+    <string name="engl253">ENGL-253</string>
+
+    <!-- SoftwareEngTechnician Text -->
+    <string name="cnet307">CNET-307</string>
+    <string name="comp212">COMP-212</string>
+    <string name="comp231">COMP-231</string>
+    <string name="comp318">COMP-318</string>
+    <string name="emps101">EMPS-101</string>
+    <string name="gned">GNED</string>
+
+    <!-- SoftwareEngTechnology Text -->
+    <string name="comp304">COMP-304</string>
+    <string name="math210">MATH-210</string>
+
+    <!-- Course description -->
+    <string name="comp212Desc">Programming 3\nThe goal of this course is to enable students, already proficient in OOP, to build robust and more complex, data-driven desktop applications using the .NET technologies. Coursework emphasizes advanced topics, such as generics, extension methods, linear data structures, delegates, asynchronous programming, parallel programming, advanced GUI, Entity Framework core, ML.NET framework, etc. The language of instruction is C#.</string>
+    <string name="comp214Desc">Advanced Database Concepts\nThis course is intended to expand the student’s knowledge of business databases using data RDBMS and NoSQL driven systems. The course introduces students to the steps required to install and configure a database server and development system. Then, it expands the students’ knowledge of SQL by introducing more complex syntax than that covered in the first database course. Topics covered include advanced SQL queries, PLSQL, advanced data and table manipulation commands, basic security, triggers, functions, procedures, and packages, NoSQL document management, CRUD operations and data queries, indexing and aggregation techniques. The course will include a project to develop the database back-end for a “commercial” web application.</string>
+    <string name="comp216Desc">Networking for Software Developers\nLearners in this course will gain hands-on experience by applying knowledge of network protocols and components to the development and maintenance of software applications. Coursework emphasizes network stacks, socket-based network applications, software-defined networks, and developing client applications that interface with various intelligent devices.</string>
+    <string name="comp231Desc">Software Development Project I\nThis is the capstone course for Software Engineering Technician program and the first software development project course for Software Engineering Technology, Health Informatics Technology, and Game - Programming programs. The students are required to work in teams to design, implement, and document an application or a component for a hypothetical organization. This enables the student to simulate the activities of the software engineering processes using a variety of collaborative tools used in the computer industry.</string>
+    <string name="comp247Desc">Supervised Learning\nIn this course, students will be introduced to supervised learning techniques and algorithms. Coursework covers the following algorithms: linear regression, logistic regression, decision trees, bayesian learning, support vector machines, sequence learning, k-nearest neighbors, and ensemble techniques. The concepts of underfitting, overfitting, cross-validation, and kernel methods will be covered throughout the course. Students will practice building an end-to-end supervised learning project.</string>
+    <string name="comp254Desc">Data Structures and Algorithms\nBuilding on fundamentals of Object-Oriented programming, this course exposes the students to algorithms and data structures. Students will analyze, evaluate and apply appropriate data structures and algorithms for the implementation of a software system. Coursework emphasizes the classical data structures, basic algorithm design, common operations on data structures, and the use of mathematical techniques to analyze the efficiency of the various algorithms. The languages of instruction are Java and Python (optional).</string>
+    <string name="comp304Desc">Mobile Apps Development\nIn this mobile apps course, students will gain hands-on experience in developing and deploying mobile applications on the Android platform. Coursework emphasizes how to create advanced Graphical User Interfaces (GUIs), handle events, access remote services, store and retrieve data on the device, display maps, and use other Android APIs. Android Studio will be used to create a variety of mobile applications.</string>
+    <string name="comp311Desc">Software Testing and Quality Assurance\nThis course explores the goals of quality assurance and quality control activities performed during the life cycle of a software product. It focuses on integrating test processes with agile software development methodologies. Practical exercises give experience of design, specification, execution of tests plus test automation using tools through a mixture of instructor-directed exercises and student research leading to knowledge sharing.</string>
+    <string name="comp318Desc">Developing UI for Software Devices\nThis course will cover developing and testing software systems that interface with various smart devices.  Students will gain hands-on experience by applying machine learning algorithms to automate various tasks as well as develop and deploy various conversational user interfaces. Areas of application include IoT devices, wearables, and autonomous cars.</string>
+
+    <string name="emps101Desc">Employment Skills\nIn Employment Skills 1 students will learn the ability to seek career opportunities and effectively market their knowledge, skills and abilities tailored to these opportunities. Students will identify and catalog work and/or voluntary experience, education and skills as employable assets and leverage these to obtain suitable employment that is consistent with their career plans and goals. This is accomplished by the following strategies:\n
+                \n
+                a) Prepare a Curriculum Vitae (CV)/Resume based on job-research relevant to students’ respective programs\n
+                \n
+                b) Use of social media\n
+                \n
+                c) Prepare a career portfolio.\n
+                \n
+                d) Attend a simulated/mock job interview scenario\n
+                \n
+                e) Active assistance of Centennial College Career Services\n
+                \n
+                f) Apply strategies to grow and excel on the job</string>
+
+    <string name="gnedDesc">General Education Elective\nSelect an elective course from your area of study.</string>
+
+    <string name="math210Desc">Linear Algebra and Statistics\nThis course contains topics in Linear Algebra and Statistics. Linear algebra topics include operations with matrices, inverses, determinants, and vectors. Statistics topics include descriptive statistics, probability distributions as well as inferential statistics including hypothesis testing. Students will also use software applications in solving relevant problems.</string>
+    <string name="engl253Desc">Advanced Business Communications\nENGL-253 is a senior level English course that explores the written and oral communication tasks that people in accounting and related fields encounter at work. It is intended for students who have mastered basic essay-writing skills (COMM-170 level). Its emphasis is on the strategies and formats that lead to effective communication: writing the solution, packaging the solution, and presenting the solution. Writing formats studied include letters, memoranda and reports. Instruction and practice in informal and formal public speaking are also provided. Students are presented with problem-solving tasks that will yield a variety of \"products\": identifying problems, framing potential solutions, resolving problems, and presenting the results of their research in clear and effective ways.</string>
+    <string name="cnet307Desc">IT Project Management\nStudents are taught the concepts and basic functions of Project Management, and the integration of these concepts and functions into a coherent project management system. Also, role of the project manager and the project management team in implementing and controlling projects. Further, the Project Management Body of Knowledge PMBOK® as defined by the Project Management Institute PMI and its application to Project Management.\nCNET307 may be delivered in on-line mode.</string>
+
+
+
+</resources>
