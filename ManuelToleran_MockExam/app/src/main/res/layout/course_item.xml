@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/course_name_text_view"
+        android:layout_width="46dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/course_code_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/course_credits_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="end"/>
+    <TextView
+        android:id="@+id/course_time_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="end"/>
+</LinearLayout>
